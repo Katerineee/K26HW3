@@ -1,4 +1,4 @@
-
+/*CONVERTER
 
 class Converter
 {
@@ -55,7 +55,7 @@ internal class Program
             {
                 try
                 {
-                    Console.Write("Введiть сумму: ");
+                    Console.Write("Введiть суму: ");
                     value = decimal.Parse(Console.ReadLine());
                 }
                 catch
@@ -64,7 +64,7 @@ internal class Program
                     continue;
                 }
                 if (value > 0) return value;
-                else Console.WriteLine("Числa повинно бути бiльше нуля");
+                else Console.WriteLine("Число повинно бути бiльше нуля");
             }
             return -1;
         }
@@ -86,7 +86,7 @@ internal class Program
                 continue;
             }
             if (EURcurrency > 0 && USDcurrency > 0) success = true;
-            else Console.WriteLine("Числa повинно бути бiльше нуля");
+            else Console.WriteLine("Число повинно бути бiльше нуля");
         }
         while (true)
         {
@@ -114,7 +114,7 @@ internal class Program
             EUR = 0;
             USD = 0;
 
-            Console.WriteLine("Якшо хочете зупинити програму напишiть (STOP)" + "\n");
+            Console.WriteLine("Якщо хочете зупинити програму напишiть (STOP)" + "\n");
         }
     }
 }
